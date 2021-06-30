@@ -109,7 +109,7 @@ $('#yes').click(function() {
               no-repeat
             `,
         showCancelButton: true,
-        cancelButtonText: "nhập đi k bị leak đâu ",
+        cancelButtonText: "nhập đi b ơi",
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonColor: '#fe8a71',
@@ -119,13 +119,13 @@ $('#yes').click(function() {
         if (result.value) {
             Swal.fire({
                 width: 900,
-                confirmButtonText: 'mẹ m mà nghĩ t thích con thuỳ dương t blk cả mả nhà m',
+                confirmButtonText: '',
                 background: '#fff url("img/iput-bg.jpg")',
                 title: 'hihi thanks',
                 text: "tớ biết cậu tin tớ mà, h lên fb và ẳng tiếp đi",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
-                    window.location = 'http://fb.com';
+                    window.location = 'http://fb.com/i.ducanh;
                   }
             })
         }
