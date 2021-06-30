@@ -96,7 +96,7 @@ $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'nhập cái con mẹ gì xuống đây cũng đc hết ó',
+        title: 'nhập cái clg cũng đc hết ó',
         html: true,
         width: 900,
         padding: '3em',
